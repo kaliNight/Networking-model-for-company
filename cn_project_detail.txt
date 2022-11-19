@@ -1,0 +1,27 @@
+1).Three floor:- 
+first floor
+		sales-120
+		 HR-120
+second floor
+		 Finance-120
+		 Admin-120
+third floor
+		 ICT-120
+		 serverRoom
+
+Functionalty:
+1).only two routers and two ISPs available (to reduce redundancy and both router connected to two ISPs)
+2).Each deparment has wireless Network
+3).Private ip address is 172.16.1.0 and public ip address 195.136.17.12/30
+4).Each department has their Hostname, password
+5).It will show the banner message to the new engineer
+6).ip domain lookup is disabled
+7).Each deparment is divided as VLan
+8).L3 switch have ip adress so that they can do routing and switching
+9).There is one DHCP server which provides the IP address to all the devices dynamicaly
+10).OSPF routing is there according to the area
+11).SSH security is there so that only authorised people can access router
+12).Port security to finance is there so that if anybody plug-out the company cable and plug in its own then the port will shutdown
+13).Network Adress Translation is there which convert the local ip to public ip
+
+		 
